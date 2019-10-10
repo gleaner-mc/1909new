@@ -1,0 +1,102 @@
+.margin{width:1190px;margin:0 auto;}
+
+ .margin{width:1190px;margin:0 auto;}
+.bg{background:url(../images/default_icon_bg.png) no-repeat;}
+.c{background:url(../images/201409101646002.png) no-repeat;}
+ 
+#top{height:25px;border-bottom:1px solid #e5e5e5;background:#eeeeee;font:12px/25px "";text-align:right;vertical-align:middle;}
+#top a{color:#f60;margin:0 3px;}
+#top b{color:#f60;margin:0 3px;}
+#top a.te{color:#666;}
+#top a.te2{color:#333;}
+#top span{color:#d5d5d5;vertical-align:middle;margin:0 3px;}
+#top i{display:inline-block;vertical-align:middle;margin:0 3px;}
+#top i.xiajian{width:7px;height:4px;background-position:-513px 0;}
+#top i.iphone{width:10px;height:14px;background-position:-510px -13px;}
+#top i.qq{width:17px;height:19px;background-position:-503px -43px;}
+#top i.tel{width:123px;height:16px;background-position:-316px -65px;}
+
+
+
+#header{height:77px;}
+#header .logo{float:left;width:421px;height:55px;background-position:0 -7px;margin-top:16px;}
+#header .search{float:left;margin:16px 0 0 119px;}
+#header .search form{overflow:hidden;}
+#header .search form .txt{float:left;width:258px;height:26px;border:2px solid #d5d5d5;border-right:0;padding:0 7px;}
+#header .search form .sub{float:left;width:65px;height:30px;color:#fff;background:#444;border:0;}
+#header .search p{font:12px/28px "";}
+#header .search p span{color:#cdcdcd;margin-right:6px;}
+#header .search p a{color:#898989;margin-right:3px;}
+
+#header .shop{float:right;width:126px;height:34px;background-position:0 -64px;margin-top:20px;border:2px solid #d7d7d7;font:12px/34px "";color:#666;text-indent:46px;}
+#header .shop span{color:#c70102;margin:0 4px;}
+
+
+#nav{height:34px;background:#a21f25; }
+#nav .nav-l{float:left;width:190px;background:#b9363c;position: relative;}
+#nav .nav-l h3{font:700 14px/34px "";color:#fff;text-align:center;display:block;}
+#nav .nav-l ul{width:190px;height:385px;background:#1f1909;position: absolute;top:34px;left:0;z-index: 100;display: none;}
+#nav .nav-l ul li{font:12px/42px "";}
+#nav .nav-l ul li a{display:block;color:#fefff9;}
+#nav .nav-l ul li a i{display:inline-block;background:url(../images/bg.png) no-repeat;width:21px;height:25px;vertical-align:middle;margin:0 10px 0 13px;}
+#nav .nav-l ul li a .i2{background-position:-21px 0;width:21px;height:25px;}
+#nav .nav-l ul li a .i3{background-position:-42px 0;width:21px;height:25px;}
+#nav .nav-l ul li a .i4{background-position:-63px 0;width:21px;height:25px;}
+#nav .nav-l ul li a .i5{background-position:-84px 0;width:21px;height:25px;}
+#nav .nav-l ul li a .i6{background-position:-105px 0;width:21px;height:25px;}
+#nav .nav-l ul li a .i7{background-position:-126px 0;width:21px;height:25px;}
+#nav .nav-l ul li a .i8{background-position:-147px 0;width:21px;height:25px;}
+#nav .nav-l ul li a .i9{background-position:-168px 0;width:21px;height:25px;}
+#nav .nav-l ul li a span{color:#fefff9;}
+#nav .nav-l:hover ul{display:block;}
+
+#nav .nav-c{float:left;overflow:hidden;}
+#nav .nav-c li{float:left;font:14px/34px "";}
+#nav .nav-c li a{display:block;color:#fefffa;background:url(../images/shu.png) no-repeat right;padding:0 18px 0 13px;}
+#nav .nav-c .last a{background:none;}
+#nav .nav-c li:hover{background:#444;}
+#nav .nav-c .hot a{color:#ffe30f;}
+
+#nav .nav-r{float:right;font:12px/34px "";}
+#nav .nav-r a{color:#f5edea;margin:0 5px;position:relative;}
+#nav .nav-r a i{width:33px;height:19px;background:url(../images/201410111038.gif) no-repeat -68px;position:absolute;right:-15px;top:-20px;}
+#nav .nav-r span{color:#cb9392;}
+#main p{
+    font:12px/34px "";
+    color:#999;
+    height: 34px;
+}
+.desc {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+}
+.price {
+    font-size: 30px;
+    color: red;
+}
+.row:last-child .box{
+    padding:20px 0;
+}
+.operate-area {
+    width: 700px;
+    margin: 20px auto;
+    height: 30px;
+    
+    
+}
+.operate-area {
+    display: flex;
+    justify-content: space-between;
+}
+.operate-area .active {
+    color: red;
+}
+.operate-area span {
+    display: block;
+    border:1px solid #666;
+    font: 12px/30px "";
+    padding:0 10px;
+}

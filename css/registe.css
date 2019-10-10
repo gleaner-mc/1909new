@@ -1,0 +1,46 @@
+.margin{width:1190px;margin:0 auto;}
+
+header{
+   padding:20px 0;
+    
+}
+header a{
+    height: 55px;
+    width:421px;
+    display: block;
+    background: url(../images/default_icon_bg.png) no-repeat 0 -7px;
+    margin-left: 100px;
+}
+#login{
+    overflow: hidden;
+}
+#login .login-l{
+    float: left;
+}
+#login .login-r {
+    float: left;
+    width: 400px;
+}
+#login .login-r p{
+    margin:0 0 20px 50px;
+    font:700 16px/32px "";
+}
+#login .login-r p span{
+    font:12px/24px "";
+    color:#666;
+}
+#login .login-r .container form{
+    margin-left:-70px;
+    position: relative;
+}
+
+.btn{
+    background: red;
+    color:#fff;
+}
+#login .login-r .container form .fail{
+    display: none;
+    position: absolute;
+    top:35px;
+    z-index: 100;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>名鞋库</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/detail.css" class="">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+</head>
+
+<body>
+    <div id="top">
+        <div class="margin">
+            <b class="login">欢迎登录名鞋库</b>
+            <a href="./registe.html">注册</a>
+            <span>|</span>
+            <a class="te">我的名鞋库</a>
+            <i class="xiajian bg"></i>
+            <span>|</span>
+            <i class="iphone bg"></i>
+            <a class="te">手机名鞋库</a>
+            <i class="xiajian bg"></i>
+            <span>|</span>
+            <a class="te2">收藏名鞋库</a>
+            <span>|</span>
+            <i class="qq bg"></i>
+            <a class="te2">qq</a>
+            <span>|</span>
+            <i class="tel bg"></i>
+            <span>|</span>
+        </div>
+    </div>
+
+
+    <div id="header" class="margin">
+        <a href="./list.html" class="logo bg"></a>
+        <div class="search">
+            <form>
+                <input type="text" class="txt">
+                <input type="submit" class="sub" value="搜索">
+            </form>
+            <p>
+                <span>热搜：</span>
+                <a href="#">哈哈哈</a>
+                <a href="#">哈哈哈</a>
+                <a href="#">哈哈哈</a>
+                <a href="#">哈哈哈</a>
+                <a href="#">哈哈哈</a>
+                <a href="#">哈哈哈</a>
+                <a href="#">哈哈哈</a>
+            </p>
+        </div>
+        <a href="#" class="shop bg">购物车<span>0</span>件</a>
+    </div>
+
+    <div id="nav">
+        <div class="margin">
+            <div class="nav-l">
+                <h3>所有商品分类</h3>
+                <ul>
+                    <li><a href="#"><i class="i1"></i><span>鞋子</span></a></li>
+                    <li><a href="#"><i class="i2"></i><span>鞋子</span></a></li>
+                    <li><a href="#"><i class="i3"></i><span>鞋子</span></a></li>
+                    <li><a href="#"><i class="i4"></i><span>鞋子</span></a></li>
+                    <li><a href="#"><i class="i5"></i><span>鞋子</span></a></li>
+                    <li><a href="#"><i class="i6"></i><span>鞋子</span></a></li>
+                    <li><a href="#"><i class="i7"></i><span>鞋子</span></a></li>
+                    <li><a href="#"><i class="i8"></i><span>鞋子</span></a></li>
+                    <li><a href="#"><i class="i9"></i><span>鞋子</span></a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="nav-c">
+                    <li><a href="../index.html">首页</a></li>
+                    <li><a href="./list.html">列表页</a></li>
+                    <li><a href="#">首页峰</a></li>
+                    <li><a href="#">首页工会</a></li>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">首页规范</a></li>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">首页</a></li>
+                    <li class="last hot"><a href="#">首页</a></li>
+                </ul>
+            </div>
+            <div class="nav-r">
+                <a href="#">上新区</a>
+                <span>|</span>
+                <a href="#">上新峰区<i></i></a>
+                <span>|</span>
+                <a href="#">上新是区</a>
+                <span>|</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div>
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab"
+                            data-toggle="tab">宝贝详情</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab"
+                            data-toggle="tab">累计评论</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab"
+                            data-toggle="tab">专享服务</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="home">宝贝详情123123123</div>
+                    <div role="tabpanel" class="tab-pane" id="profile">累计评论213123123</div>
+                    <div role="tabpanel" class="tab-pane" id="messages">专享服务123123213</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../js/cookie.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/ajax.js"></script> 
+    <script src="../js/detail/detail.js"></script> 
+    <!-- <script src="../js/enlarge.js"></script> -->
+    <!-- <script>
+        const box = document.querySelector('.box')
+        const e = new Enlarge(box)
+        console.log(e)
+    </script> -->
+    <script>
+    var $login = $('.login');
+    console.log($login);
+    var lock_ = true;
+    if (getCookie("global")) {
+        lock_ = false;
+           $login[0].innerHTML = "";
+           $login[0].innerHTML = getCookie("global");
+
+       }else{
+           $login.click(function () {
+           location.href = "./pages/login.html?target="+encodeURIComponent(location.href)
+    })
+       }
+    </script>
+</body>
+
+</html>

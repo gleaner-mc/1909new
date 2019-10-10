@@ -1,0 +1,13 @@
+.list-group-item{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+.list-group-item img {
+  height: 150px;
+}
+.list-group-item .item{
+  width:150px;
+}
